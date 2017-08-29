@@ -9,7 +9,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 /* Some default styles to make each box visible */
 .box {
   color:white;
-  font-size: 20px;
+  font-size: 50px;
   text-align: center;
   text-shadow:4px 4px 0 rgba(0,0,0,0.1);
   padding:10px;
@@ -30,13 +30,28 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 /* We start writing out flexbox here. The above is just page setup
 justify-content = how items are aligned on main axis
-*/
+
 .container {
   display:flex;
   flex-direction: column;
   justify-content: flex-end;
   min-height: 100vh;
-  /* when change direction to column, need to give
+
+  when change direction to column, need to give
   container height and each item needs to be smaller
-  to see "space around" */
+  to see "space around"
 }
+*/
+
+/*
+align-tems = concerned with cross axis 
+
+.container {
+  display: flex;
+  border: 10px solid mistyrose;
+  align-items: center;
+  height: 100vh;
+}
+
+  baseline aligns everything along bottom of text
+*/
