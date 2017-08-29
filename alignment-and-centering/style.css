@@ -44,7 +44,7 @@ justify-content = how items are aligned on main axis
 */
 
 /*
-align-tems = concerned with cross axis 
+align-tems = concerned with cross axis
 
 .container {
   display: flex;
@@ -55,3 +55,22 @@ align-tems = concerned with cross axis
 
   baseline aligns everything along bottom of text
 */
+
+/*
+align-content and justify-content work together to divy
+up white space
+
+align-content splits up white space along cross axis*/
+
+.container {
+  display: flex;
+  border: 10px solid mistyrose;
+  height: 100vh;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.box {
+  width: 33.33333%;
+}
