@@ -32,10 +32,10 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .container {
   display:flex;
   border:10px solid goldenrod;
-  min-height:100vh;
-  flex-wrap:wrap;
-}
-
-.box {
-  width:33.3333333%;
+  min-height: 100vh;
+  flex-direction: column;
+  /* this changes the axes
+ row main axis goes left to right and cross axis top to bottom
+ column main goes top to bottom and cross goes left to right
+ if you reverse, the main axes reverse */
 }
